@@ -37,8 +37,8 @@
         android:layout_below="@+id/text2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="27dp"
-        android:id="@+id/retry"
+        android:id="@+id/retry_net"
         android:background="@color/colorPrimaryDark"
-        android:onClick="check_network (NoInternet)" />
+        android:onClick="check_connection" />
 
 </RelativeLayout>

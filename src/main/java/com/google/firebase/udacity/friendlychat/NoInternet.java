@@ -20,7 +20,7 @@ public class NoInternet extends AppCompatActivity {
         setContentView(R.layout.activity_no_internet);
     }
 
-    public void check_network(View view) {
+    public void check_connection(View view) {
         if (haveNetworkConnection()) {
             Intent i = new Intent(this, MainActivity.class);
             startActivity(i);
